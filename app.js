@@ -12,3 +12,15 @@ archivo2.addEventListener("click", function(event) {
   window.open(url, "_blank");
 });
 
+var archivo3 = document.getElementById("maestrosclases");
+archivo3.addEventListener("click", function(event) {
+  event.preventDefault();
+  let url = "https://docs.google.com/spreadsheets/d/12UbjmYBagY27_lEPaF-qV8gbcL0qtnjS2QfvETDf_J0/edit?usp=sharing";
+  window.open(url, "_blank");
+});
+
+
+window.addEventListener('load', function() {
+  var loadingScreen = document.getElementById('logoentrada');
+  loadingScreen.style.display = 'none';
+});

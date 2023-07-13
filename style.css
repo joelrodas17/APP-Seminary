@@ -20,3 +20,24 @@
   color: white;
   bottom: 0;
 }
+#logoentrada{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 100000;
+  text-align: center;
+  display: grid;
+  
+}
+#containerspinner{
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+  height: 30px;
+}
+.spyner{
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
