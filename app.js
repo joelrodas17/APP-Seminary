@@ -8,7 +8,7 @@ archivo.addEventListener("click", function(event) {
 var archivo = document.getElementById("inscripcion");
 archivo.addEventListener("click", function(event) {
   event.preventDefault();
-  var url = "https://docs.google.com/spreadsheets/d/10lxVg-5KBFKlFdWgn18QSJOrFviT9PbTgZMD6DhYdKQ/edit?usp=sharing;
+  var url = "https://docs.google.com/spreadsheets/d/10lxVg-5KBFKlFdWgn18QSJOrFviT9PbTgZMD6DhYdKQ/edit?usp=sharing";
   window.open(url, "_blank");
 });
 
