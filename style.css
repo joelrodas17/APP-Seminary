@@ -1,6 +1,6 @@
 #title-page{
   font-size: 19.5px;
-  font-weight: 350;
+  font-weight: 390;
 }
 .option-cont{
   background-color: rgb(232, 231, 231);
@@ -12,13 +12,20 @@
 }
 .footer{
   text-align: center;
-  font-size: 13px;
+  padding: 0.7em;
+  font-size: 14px;
   position: absolute;
   background-color: rgb(53, 53, 53);
   left: 0 ;
   right: 0;
   color: white;
   bottom: 0;
+}
+.footer span{
+  color: rgb(248, 66, 172);
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
 }
 #logoentrada{
   position: fixed;
@@ -40,4 +47,25 @@
   margin-top: 10px;
   width: 20px;
   height: 20px;
+}
+
+/* Alert */
+.swal2-popup{
+  width: 22em;
+  height: 11em;
+}
+
+.swal2-popup .swal2-title{
+  font-size: 1.5em;
+}
+.swal2-popup .swal2-html-container{
+  font-size: 0.9em;
+}
+.swal2-popup .swal2-actions .swal2-confirm{
+  font-size: 0.9em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+.swal2-actions{
+  margin: 0px;
 }

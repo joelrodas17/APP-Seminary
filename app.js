@@ -18,9 +18,26 @@ archivo3.addEventListener("click", function(event) {
   let url = "https://docs.google.com/spreadsheets/d/12UbjmYBagY27_lEPaF-qV8gbcL0qtnjS2QfvETDf_J0/edit?usp=sharing";
   window.open(url, "_blank");
 });
-
+var archivo3 = document.getElementById("preguntas");
+archivo3.addEventListener("click", function(event) {
+  event.preventDefault();
+  let url = "https://forms.gle/TBJiajxKjkhKnS1EA";
+  window.open(url, "_blank");
+});
 
 window.addEventListener('load', function() {
   var loadingScreen = document.getElementById('logoentrada');
   loadingScreen.style.display = 'none';
 });
+
+Swal.fire({
+  title: 'App Seminary',
+  text: 'Los datos obtenidos en este App, se actualizan todos los martes.',
+  confirmButtonText: 'Aceptar',
+  showClass: {
+    popup: 'animate__animated animate__fadeInDown'
+  },
+  hideClass: {
+    popup: 'animate__animated animate__fadeOutUp'
+  }
+})
